@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body{
+  width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
   flex-direction: column;
@@ -12,4 +13,5 @@ body{
   background-color: #19191a;
   color: #f7f7f7;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
